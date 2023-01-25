@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>A-FrameとAR.js - スナップショットを撮る</title>
-    <!-- ① A-Frame を読み込む -->
+    <!-- A-Frame を読み込む -->
     <script src="//aframe.io/releases/0.8.0/aframe.min.js"></script>
-    <!-- ② AR.js を読み込む -->
+    <!-- AR.js を読み込む -->
     <script src="//jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
     <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
@@ -62,17 +62,162 @@
 </head>
 
 <body style='margin: 0; overflow: hidden;'>
-<!-- ③ シーンを追加 -->
+<!-- シーンを追加 -->
 <a-scene embedded arjs>
-    <a-marker preset="custom" type="pattern" url="pattern-marker.patt">
-        <a-image src="./test/sdg_icon_01_ja_2-290x290.png"
+    <!--ロゴ１番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs1.patt">
+        <a-image src="./rogo/sdg_icon_01_ja_2-290x290.png"
             position="0 0 0.3" 
             rotation="-90 0 0" 
             scale="1.5 1.5 1">
         </a-image>
     </a-marker>
 
-    <!-- ⑥ カメラを追加 -->
+    <!--ロゴ２番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs2.patt">
+        <a-image src="./rogo/sdg_icon_02_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ３番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs3.patt">
+        <a-image src="./rogo/sdg_icon_03_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ４番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs4.patt">
+        <a-image src="./rogo/sdg_icon_04_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ５番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs5.patt">
+        <a-image src="./rogo/sdg_icon_05_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ６番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs6.patt">
+        <a-image src="./rogo/sdg_icon_06_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ７番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs7.patt">
+        <a-image src="./rogo/sdg_icon_07_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ８番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs8.patt">
+        <a-image src="./rogo/sdg_icon_08_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ９番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs9.patt">
+        <a-image src="./rogo/sdg_icon_09_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１０番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs10.patt">
+        <a-image src="./rogo/sdg_icon_10_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１１番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs11.patt">
+        <a-image src="./rogo/sdg_icon_11_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１２番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs12.patt">
+        <a-image src="./rogo/sdg_icon_12_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１３番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs13.patt">
+        <a-image src="./rogo/sdg_icon_13_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１４番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs14.patt">
+        <a-image src="./rogo/sdg_icon_14_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１５番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs15.patt">
+        <a-image src="./rogo/sdg_icon_15_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１６番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs16.patt">
+        <a-image src="./rogo/sdg_icon_16_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!--ロゴ１７番目-->
+    <a-marker preset="custom" type="pattern" url="./marker/pattern-SDGs17.patt">
+        <a-image src="./rogo/sdg_icon_17_ja_2-290x290.png"
+            position="0 0 0.3" 
+            rotation="-90 0 0" 
+            scale="1.5 1.5 1">
+        </a-image>
+    </a-marker>
+
+    <!-- カメラを追加 -->
     <a-entity camera></a-entity>
 </a-scene>
 <div class="ui">
